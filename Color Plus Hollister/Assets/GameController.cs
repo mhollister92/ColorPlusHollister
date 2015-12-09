@@ -32,7 +32,6 @@ public class GameController : MonoBehaviour {
 	public bool gotInput = false;
 
 	public Text scoreUI;
-	public Text nextCubeUI;
 	public Text timerUI;
 
 
@@ -319,7 +318,6 @@ public class GameController : MonoBehaviour {
 
 		//UI
 		scoreUI.text = "Score: " + score;
-		nextCubeUI.text = "Next Cube";
 		//Checks score
 		checkMultiPlus ();
 		checkSamePlus ();
